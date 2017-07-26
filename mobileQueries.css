@@ -1,0 +1,691 @@
+/* Portrait and Landscape SAMSUNG GALAXY S5 */
+@media screen 
+and (device-width: 360px) 
+and (device-height: 640px) 
+and (-webkit-device-pixel-ratio: 3) 
+{ /* STYLES GO HERE */
+
+    #frmContact {
+      
+        width: 100%;
+        
+    }
+    
+    .centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+    
+#sidebar-btn {
+    display: block;
+    filter: brightness(50%);
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#mobileNav {
+    margin-top: 0px;
+
+}
+    
+#first-boxes2 {
+    display: none;
+}
+
+#second-boxes2 {
+    display: none;
+}
+    
+    
+#mobile-boxes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+
+}
+
+#mobile-boxes2 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#mobile-boxes3 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#scroll-nav-bar {
+    opacity: 0;
+}
+
+#social {
+    display: none;
+}
+    
+#section-holder {
+  border-left: none;
+  border-right: none;
+}
+
+#about p {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #C0C0C0;
+}
+
+#parallax1 {
+  background-image: url("Images/main-header.jpg");
+  min-height: 200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax1 h1 {
+  color: white;
+  font-size: 65px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  letter-spacing: 10px;
+}
+
+
+#parallax2 {
+    display: none;
+}
+    
+navbar {
+  text-align: center;
+  position: relative;
+  display: none;
+
+}
+
+#skills {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+  border-top: 1px silver solid;
+}
+
+#portfolio {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+    border-top: 1px silver solid;
+}
+    
+    #mobileFrmContact {
+        display: block;
+        width: 88%;
+    }
+
+}
+
+/* Portrait and Landscape iPhone 5/5s*/
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) 
+{ /* STYLES GO HERE */
+
+    #frmContact {
+      
+        width: 100%;
+        
+    }
+    
+    .centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+    
+#sidebar-btn {
+    display: block;
+    filter: brightness(50%);
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#mobileNav {
+    margin-top: 0px;
+
+}
+    
+#first-boxes2 {
+    display: none;
+}
+
+#second-boxes2 {
+    display: none;
+}
+    
+    
+#mobile-boxes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+
+}
+
+#mobile-boxes2 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#mobile-boxes3 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#scroll-nav-bar {
+    opacity: 0;
+}
+
+#social {
+    display: none;
+}
+    
+#section-holder {
+  border-left: none;
+  border-right: none;
+}
+
+#about p {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #C0C0C0;
+}
+
+#parallax1 {
+  background-image: url("Images/main-header.jpg");
+  min-height: 200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax1 h1 {
+  color: white;
+  font-size: 65px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  letter-spacing: 10px;
+}
+
+
+#parallax2 {
+    display: none;
+}
+    
+navbar {
+  text-align: center;
+  position: relative;
+  display: none;
+
+}
+
+#skills {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+  border-top: 1px silver solid;
+}
+
+#portfolio {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+    border-top: 1px silver solid;
+}
+    
+    #mobileFrmContact {
+        display: block;
+        width: 88%;
+    }
+
+}
+
+@media only screen /* Iphone 6/6s */ 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) 
+{ /* STYLES GO HERE */
+
+    #frmContact {
+      
+        width: 100%;
+        
+    }
+    
+    .centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+    
+#sidebar-btn {
+    display: block;
+    filter: brightness(50%);
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#mobileNav {
+    margin-top: 0px;
+
+}
+    
+#first-boxes2 {
+    display: none;
+}
+
+#second-boxes2 {
+    display: none;
+}
+    
+    
+#mobile-boxes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+
+}
+
+#mobile-boxes2 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#mobile-boxes3 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#scroll-nav-bar {
+    opacity: 0;
+}
+
+#social {
+    display: none;
+}
+    
+#section-holder {
+  border-left: none;
+  border-right: none;
+}
+
+#about p {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #C0C0C0;
+}
+
+#parallax1 {
+  background-image: url("Images/main-header.jpg");
+  min-height: 200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax1 h1 {
+  color: white;
+  font-size: 65px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  letter-spacing: 10px;
+}
+
+
+#parallax2 {
+    display: none;
+}
+    
+navbar {
+  text-align: center;
+  position: relative;
+  display: none;
+
+}
+
+#skills {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+  border-top: 1px silver solid;
+}
+
+#portfolio {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+    border-top: 1px silver solid;
+}
+    
+    #mobileFrmContact {
+        display: block;
+        width: 88%;
+    }
+
+}
+
+/* Portrait and Landscape iPhone+ */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) 
+{ /* STYLES GO HERE */
+
+    #frmContact {
+      
+        width: 100%;
+        
+    }
+    
+    .centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+    
+#sidebar-btn {
+    display: block;
+    filter: brightness(50%);
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#mobileNav {
+    margin-top: 0px;
+
+}
+    
+#first-boxes2 {
+    display: none;
+}
+
+#second-boxes2 {
+    display: none;
+}
+    
+    
+#mobile-boxes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+
+}
+
+#mobile-boxes2 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#mobile-boxes3 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#scroll-nav-bar {
+    opacity: 0;
+}
+
+#social {
+    display: none;
+}
+    
+#section-holder {
+  border-left: none;
+  border-right: none;
+}
+
+#about p {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #C0C0C0;
+}
+
+#parallax1 {
+  background-image: url("Images/main-header.jpg");
+  min-height: 200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax1 h1 {
+  color: white;
+  font-size: 65px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  letter-spacing: 10px;
+}
+
+
+#parallax2 {
+    display: none;
+}
+    
+navbar {
+  text-align: center;
+  position: relative;
+  display: none;
+
+}
+
+#skills {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+  border-top: 1px silver solid;
+}
+
+#portfolio {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+    border-top: 1px silver solid;
+}
+    
+    #mobileFrmContact {
+        display: block;
+        width: 88%;
+    }
+
+}
+
+/* Samsung galaxy s7+8 */
+@media only screen
+and (min-device-width: 360px) 
+and (max-device-width: 640px) 
+and (-webkit-min-device-pixel-ratio: 4) 
+{ /* STYLES GO HERE */
+
+    #frmContact {
+      
+        width: 100%;
+        
+    }
+    
+    .centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+    
+#sidebar-btn {
+    display: block;
+    filter: brightness(50%);
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#mobileNav {
+    margin-top: 0px;
+
+}
+    
+#first-boxes2 {
+    display: none;
+}
+
+#second-boxes2 {
+    display: none;
+}
+    
+    
+#mobile-boxes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+
+}
+
+#mobile-boxes2 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#mobile-boxes3 {
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#scroll-nav-bar {
+    opacity: 0;
+}
+
+#social {
+    display: none;
+}
+    
+#section-holder {
+  border-left: none;
+  border-right: none;
+}
+
+#about p {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #C0C0C0;
+}
+
+#parallax1 {
+  background-image: url("Images/main-header.jpg");
+  min-height: 200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax1 h1 {
+  color: white;
+  font-size: 65px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  letter-spacing: 10px;
+}
+
+
+#parallax2 {
+    display: none;
+}
+    
+navbar {
+  text-align: center;
+  position: relative;
+  display: none;
+
+}
+
+#skills {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+  border-top: 1px silver solid;
+}
+
+#portfolio {
+  height: auto;
+  width: 100%;
+  background-color: #22252A;
+  padding-bottom: 15px;
+    border-top: 1px silver solid;
+}
+    
+    #mobileFrmContact {
+        display: block;
+        width: 88%;
+    }
+
+}
+
+
+
